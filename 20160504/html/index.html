@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>大通资本</title>
+    <meta name="keywords" content="大通资本" />
+    <meta name="description" content="大通全球资本管理（北京）有限公司是一家专注投资管理咨询服务的公司，注册资本9990万元，总部位于北京CBD国际大厦。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="loading-wait"></div>
+    
+    <!-- 导航菜单 -->
+    <div class="header transition">
+        <div class="load"><span class="bg-orange transition-slow"></span></div>
+        <div class="logo transition"><a href="index.html"><img src="../img/header_logo.png" alt="大通资本" /></a></div>
+        <div class="mail bg-orange transition"><a href="mailto:caifuguanli@datongcapital.com" class="transition"></a></div>
+        <ul class="list transition-slow">
+            <li class="fl current"><a href="index.html" class="transition">首页</a></li>
+            <li class="fl"><a href="about.html" class="transition">关于大通</a></li>
+            <li class="fl"><a href="news.html" class="transition">大通动态</a></li>
+            <li class="fl"><a href="business.html" class="transition">核心业务</a></li>
+            <li class="fl"><a href="contact.html" class="transition">联系我们</a></li>
+        </ul>
+    </div>
+    <!-- 导航菜单end -->
+    <!-- 内容 -->
+    <div class="container transition-slow">
+        <div class="cover">
+            <div class="cover-img transition-slow"><img src="../img/cover_index.png" /></div>
+            <div class="cover-txt transition-slow">
+                <div class="index-cover-txt bounceIn animated"></div>
+                <div class="index-cover-abs transition-slow"></div>
+            </div>
+            <div class="cover-arrow"><img src="../img/cover_arrow.png" /></div>
+        </div>
+        <div class="main">
+            <div class="bg-orange">
+                <div class="index-about transition">
+                    <div class="font62 bold center">大通资本</div>
+                    <div class="center mt30 line2 font16">大通全球资本管理（北京）有限公司是一家专注投资管理咨询服务的公司<br />注册资本9990万元，总部位于北京CBD国际大厦。<a href="about.html" class="whiteColor font16">[详细]</a></div>
+                </div>
+                <div class="index-menu transition">
+                    <ul>
+                        <li class="transition" style="transition-delay:.4s;-webkit-transition-delay:.4s;">
+                            <a href="about.html" class="transition btn">
+                                <span class="icon icon-a icon-mid transition"></span>
+                                <span class="icon icon-e icon-text transition"></span>
+                                <span class="icon icon-i icon-arrow transition-slow"></span>
+                            </a>
+                        </li>
+                        <li class="transition" style="transition-delay:.6s;-webkit-transition-delay:.6s;">
+                            <a href="news.html" class="transition">
+                                <span class="icon icon-b icon-mid transition"></span>
+                                <span class="icon icon-f icon-text transition"></span>
+                                <span class="icon icon-i icon-arrow transition-slow"></span>
+                            </a>
+                        </li>
+                        <li class="transition" style="transition-delay:.8s;-webkit-transition-delay:.8s;">
+                            <a href="business.html" class="transition">
+                                <span class="icon icon-c icon-mid transition"></span>
+                                <span class="icon icon-g icon-text transition"></span>
+                                <span class="icon icon-i icon-arrow transition-slow"></span>
+                            </a>
+                        </li>
+                        <li class="transition" style="transition-delay:1s;-webkit-transition-delay:1s;">
+                            <a href="contact.html" class="transition">
+                                <span class="icon icon-d icon-mid transition"></span>
+                                <span class="icon icon-h icon-text transition"></span>
+                                <span class="icon icon-i icon-arrow transition-slow"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="index-contact">
+                <div class="img"><img src="../img/contact_sprite.png" /></div>
+                <div class="txt">
+                    <p><a href="tel:4006-066-011">4006-066-011</a></p>
+                    <p>北京市朝阳区建外大街永安东里16号CBD国际大厦7层</p>
+                    <p><a href="mailto:caifuguanli@datongcapital.com">caifuguanli@datongcapital.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容end -->
+    <!-- 底部信息 -->
+    <div class="footer">
+        Copyright&nbsp;&copy;&nbsp;2008-2016&nbsp;大通全球资本管理（北京）有限公司 All Right Reserved 京ICP备14052363号-1
+    </div>
+    <!-- 底部信息end -->
+
+
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/global.js"></script>
+    <script type="text/javascript">        
+    $(window).on('scroll',function(){
+        var top = $(this).scrollTop() + $(window).height() - 170,
+            main = $('.main').offset().top;
+        if(top > main)
+            $('.main').addClass('main-scrolled');
+    });
+    </script>
+</body>
+</html>

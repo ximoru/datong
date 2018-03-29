@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>大通动态 - 大通资本</title>
+    <meta name="keywords" content="大通资本" />
+    <meta name="description" content="大通全球资本管理（北京）有限公司是一家专注投资管理咨询服务的公司，注册资本9990万元，总部位于北京CBD国际大厦。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="http://cdn.datongcapital.com/img/favicon.ico" />
+    <link rel="stylesheet" href="http://cdn.datongcapital.com/css/global.css?t=20161020">
+    <link rel="stylesheet" href="http://cdn.datongcapital.com/css/news.css">
+</head>
+<body>
+    <div class="loading-wait"></div>
+    
+    <!-- 导航菜单 -->
+    <div class="header transition">
+        <div class="load"><span class="bg-orange transition-slow"></span></div>
+        <div class="logo transition"><a href="index.html"><img src="http://cdn.datongcapital.com/img/header_logo.png" alt="大通资本" /></a></div>
+        <div class="mail bg-orange transition"><a href="mailto:caifuguanli@datongcapital.com" class="transition"></a></div>
+        <ul class="list transition-slow">
+            <li class="fl"><a href="index.html" class="transition">首页</a></li>
+            <li class="fl"><a href="http://www.lexiangbao.com/activity/travel.html" class="transition" target="_blank">最新活动</a></li>
+            <li class="fl"><a href="about.html" class="transition">关于大通</a></li>
+            <li class="fl current"><a href="news.html" class="transition">大通动态</a></li>
+            <li class="fl"><a href="business.html" class="transition">核心业务</a></li>
+            <li class="fl"><a href="contact.html" class="transition">联系我们</a></li>
+        </ul>
+    </div>
+    <!-- 导航菜单end -->
+    <!-- 内容 -->
+    <div class="container transition-slow">
+        <div class="cover news-detail-top">
+            <div class="cover-img transition-slow"><img src="http://cdn.datongcapital.com/img/cover_news.png" /></div>
+            <div class="cover-txt transition-slow">
+                <div class="font24 center">新闻动态</div>
+                <div class="font95 center">NEWS</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="news-detail">
+                <ul class="menu-list">
+                    <li><a href="news.html?type=0" title="最新动态">最新动态</a></li>
+                    <li><a href="news.html?type=1" title="公司新闻">公司新闻</a></li>
+                    <li><a href="news.html?type=2" title="行业动态">行业动态</a></li>
+                    <li><a href="news.html?type=3" title="宏观经济" class="current">宏观经济</a></li>
+                </ul>
+                <h1 class="font22 title center">央行进行300亿逆回购,流动性危机加大市场利率波动</h1>
+                <p class="date font12 center">发布时间:2016-04-02 &nbsp;&nbsp;&nbsp;&nbsp;浏览量：3001</p>
+                <div class="content">
+                    <div class="block">
+                        <p class="indent">央行今日公开市场将进行300亿元7天期逆回购操作。另外，公开市场今日有300亿元7天期逆回购到期。央行公开市场本周净回笼2200亿元，上周回笼2900亿。</p>
+                        <p class="indent">信用危机影响资金出借方的积极性，基金赎回压力上升，流动性危机将加大资金利率的波动。</p>
+                        <dl>
+                            <dt class="black">相关新闻:</dt>
+                            <dd>6日，上海银行间同业拆放利率（Shibor）多数下跌。隔夜和1周Shibor利率分别下跌了0.10个基点和0.30个基点，报于2.0000%和2.3260%。</dd>
+                        </dl>
+                        <p class="indent">展望5月资金面，兴业经济研究咨询股份有限公司资深债券研究员郭草敏指出，5月资金面仍将延续波动，需进一步关注信用风险。近期央行对流动性投放较为谨慎，容易令机构对资金面形成不安全感，这将直接影响资金出借方的积极性，增加市场利率的波动。</p>
+                    </div>
+                </div>
+                <div class="context">
+                    <p><a href="news-detail-301.html" title="今日金融行业资讯" class="grayColor">上一篇：今日金融行业资讯</a></p>
+                    <p><a href="news-detail-303.html" title="经济开始复苏，固定资产投资增速有望加快" class="grayColor">下一篇：经济开始复苏，固定资产投资增速有望加快</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容end -->
+    <!-- 底部信息 -->
+    <div class="footer">
+        Copyright&nbsp;&copy;&nbsp;2008-2016&nbsp;大通全球资本管理（北京）有限公司 All Right Reserved 京ICP备14052363号-1
+    </div>
+    <!-- 底部信息end -->
+
+
+    <script type="text/javascript" src="http://cdn.datongcapital.com/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.datongcapital.com/js/global.js"></script>
+    <script type="text/javascript">
+       $(function(){
+            var pageNum=global.getParam('type',window.location.href);
+            if(pageNum && pageNum>=0)
+            {
+                $('.menu-list li').eq(pageNum).addClass('current').siblings('li').removeClass('current');
+            }
+        });
+    </script>
+</body>
+</html>

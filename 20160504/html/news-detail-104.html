@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>大通动态 - 大通资本</title>
+    <meta name="keywords" content="大通资本" />
+    <meta name="description" content="大通全球资本管理（北京）有限公司是一家专注投资管理咨询服务的公司，注册资本9990万元，总部位于北京CBD国际大厦。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/news.css">
+</head>
+<body>
+    <div class="loading-wait"></div>
+    
+    <!-- 导航菜单 -->
+    <div class="header transition">
+        <div class="load"><span class="bg-orange transition-slow"></span></div>
+        <div class="logo transition"><a href="index.html"><img src="../img/header_logo.png" alt="大通资本" /></a></div>
+        <div class="mail bg-orange transition"><a href="mailto:caifuguanli@datongcapital.com" class="transition"></a></div>
+        <ul class="list transition-slow">
+            <li class="fl"><a href="index.html" class="transition">首页</a></li>
+            <li class="fl"><a href="about.html" class="transition">关于大通</a></li>
+            <li class="fl current"><a href="news.html" class="transition">大通动态</a></li>
+            <li class="fl"><a href="business.html" class="transition">核心业务</a></li>
+            <li class="fl"><a href="contact.html" class="transition">联系我们</a></li>
+        </ul>
+    </div>
+    <!-- 导航菜单end -->
+    <!-- 内容 -->
+    <div class="container transition-slow">
+        <div class="cover news-detail-top">
+            <div class="cover-img transition-slow"><img src="../img/cover_news.png" /></div>
+            <div class="cover-txt transition-slow">
+                <div class="font24 center">新闻动态</div>
+                <div class="font95 center">NEWS</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="news-detail">
+                <ul class="menu-list">
+                    <li><a href="news.html?type=0" title="最新动态">最新动态</a></li>
+                    <li><a href="news.html?type=1" title="公司新闻" class="current">公司新闻</a></li>
+                    <li><a href="news.html?type=2" title="行业动态">行业动态</a></li>
+                    <li><a href="news.html?type=3" title="宏观经济">宏观经济</a></li>
+                </ul>
+                <h1 class="font22 title center">大通资本恭祝2016元旦快乐</h1>
+                <p class="date font12 center">发布时间:2016-01-01 &nbsp;&nbsp;&nbsp;&nbsp;来源: 浏览量：2145</p>
+                <div class="content">
+                    <div class="block">
+                        <img src="../demo/news-detail-104-01.png"/>
+                        <p class="indent">
+                            喜悦伴着汗水，成功伴着艰辛，遗憾激励奋斗，不知不觉地走进了2016年，在新年来临之际，大通资本恭祝大家元旦快乐，万事如意!
+                        </p>
+                        <p class="indent">
+                           2015年对大通资本是一个不平凡的一年。大通资本在公司全体人员的努力工作下，不断前进成长。大通资本以北京作为中心，辐射全国，分公司增至35家，且数量在不断的增加。与此同时，大通资本在厦门成立了互联网金融中心，线下线上同步发展。
+                        </p>
+                        <p class="indent">
+                            2016年则是机遇与挑战并存的一年。大通资本“诚信守诺 勇于拼搏  开拓创新  追求卓越”的企业文化精神，以“安全 感恩 责任 规范”经营理念。致力于缔造一个与线下门店相结合的安全、专业、规范的互联网金融服务平台，通过整合各类金融资源，为中小微企业和个人客户提供金融增值服务，推动信用社会的发展。 
+                        </p>
+                        
+                        <p class="indent">
+                            新的一年、新的希望、新的起程，大通资本聚公司全体人员的力量，一起前进，奔向新的辉煌!
+                        </p>
+                        <p class="indent">
+                            新的一年、新的希望、新的起程，大通资本聚公司全体人员的力量，一起前进，奔向新的辉煌!
+                        </p>
+                    </div>
+                </div>
+                <div class="context">
+                    <p><a href="news-detail-103.html" class="grayColor" title="大通全球信息2015-2016 年度会——襄盛举，绘蓝图，新跨越">上一篇：大通全球信息2015-2016 年度会——襄盛举，绘蓝图，新跨越</a></p>
+                    <p><a href="news-detail-105.html" title="大通资本并肩300多家知名企业登上“2014—2015中国企业诚信与竞争力品牌发布”榜单" class="grayColor" >下一篇：大通资本并肩300多家知名企业登上“2014—2015中国企业诚信与竞争力品牌发布”榜单</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容end -->
+    <!-- 底部信息 -->
+    <div class="footer">
+        Copyright&nbsp;&copy;&nbsp;2008-2016&nbsp;大通全球资本管理（北京）有限公司 All Right Reserved 京ICP备14052363号-1
+    </div>
+    <!-- 底部信息end -->
+
+
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/global.js"></script>
+    <script type="text/javascript">
+       $(function(){
+            var pageNum=global.getParam('type',window.location.href);
+            if(pageNum && pageNum>=0)
+            {
+                $('.menu-list li').eq(pageNum).addClass('current').siblings('li').removeClass('current');
+            }
+        });
+    </script>
+</body>
+</html>

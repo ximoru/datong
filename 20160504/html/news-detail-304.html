@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>大通动态 - 大通资本</title>
+    <meta name="keywords" content="大通资本" />
+    <meta name="description" content="大通全球资本管理（北京）有限公司是一家专注投资管理咨询服务的公司，注册资本9990万元，总部位于北京CBD国际大厦。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/news.css">
+</head>
+<body>
+    <div class="loading-wait"></div>
+    
+    <!-- 导航菜单 -->
+    <div class="header transition">
+        <div class="load"><span class="bg-orange transition-slow"></span></div>
+        <div class="logo transition"><a href="index.html"><img src="../img/header_logo.png" alt="大通资本" /></a></div>
+        <div class="mail bg-orange transition"><a href="mailto:caifuguanli@datongcapital.com" class="transition"></a></div>
+        <ul class="list transition-slow">
+            <li class="fl"><a href="index.html" class="transition">首页</a></li>
+            <li class="fl"><a href="about.html" class="transition">关于大通</a></li>
+            <li class="fl current"><a href="news.html" class="transition">大通动态</a></li>
+            <li class="fl"><a href="business.html" class="transition">核心业务</a></li>
+            <li class="fl"><a href="contact.html" class="transition">联系我们</a></li>
+        </ul>
+    </div>
+    <!-- 导航菜单end -->
+    <!-- 内容 -->
+    <div class="container transition-slow">
+        <div class="cover news-detail-top">
+            <div class="cover-img transition-slow"><img src="../img/cover_news.png" /></div>
+            <div class="cover-txt transition-slow">
+                <div class="font24 center">新闻动态</div>
+                <div class="font95 center">NEWS</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="news-detail">
+                <ul class="menu-list">
+                    <li><a href="news.html?type=0" title="最新动态">最新动态</a></li>
+                    <li><a href="news.html?type=1" title="公司新闻">公司新闻</a></li>
+                    <li><a href="news.html?type=2" title="行业动态">行业动态</a></li>
+                    <li><a href="news.html?type=3" title="宏观经济" class="current">宏观经济</a></li>
+                </ul>
+                <h1 class="font22 title center">美元持续贬值，人民币CFETS持续五周走低，明升暗贬</h1>
+                <p class="date font12 center">发布时间:2015-12-28 &nbsp;&nbsp;&nbsp;&nbsp;浏览量：3001</p>
+                <div class="content">
+                    <div class="block">
+                        <p class="indent">5月3日，中国外汇交易中心公布，4月29日CFETS人民币汇率指数为97.12，较前一周贬值0.1%，连续第五周创纪录新低。BIS货币篮子人民币汇率指数连跌五周，继续刷新该数据公布以来最低水平。SDR货币篮子人民币汇率指数连续第二周下跌，也创下该数据公布以来最低水平。</p>
+                        <p class="indent">受美元持续贬值影响，人民币兑美元汇率中间价及即期询价市场交易价均小幅走高。近期美元尽显颓势，非美货币普遍走强，刺激人民币对美元升值，日元等对美元升值幅度较人民币对美元更为显著，促成人民币汇率指数继续下跌，人民币明升暗贬。</p>
+                        <p class="indent">美联储二次加息时点不断延后，以及欧、日等其他主要经济体货币当局未进一步放松货币政策，导致支撑2014年7月后美元持续上涨的货币政策“周期差”逐渐收敛，是今年以来美元陷入阶段性弱势的主要原因。目前看，市场对美联储政策预期的纠偏还在进行，美元向下破位后进一步确认美元的中短期弱势格局，非美货币则迎来“升机”。市场人士认为，在美元阶段弱势格局下，中短期内，人民币兑美元汇率呈现区间震荡、底部抬高的运行态势的可能性较大。</p>
+                        <p class="indent">市场人士指出，近期日元等对美元升值幅度较人民币对美元更为显著，促成人民币汇率指数继续下跌。在弱势美元“掩护”的人民币温和贬值，既有助于支持出口部门，也不至于加重资本流出压力。一段时间内，人民币对美元升值，同时对一篮子货币贬值可能是常态。</p>
+                    </div>
+                </div>
+                <div class="context">
+                    <p><a href="news-detail-303.html" title="经济开始复苏，固定资产投资增速有望加快" class="grayColor">上一篇：经济开始复苏，固定资产投资增速有望加快</a></p>
+                    <p><a href="news-detail-305.html" title="暂无" class="grayColor">下一篇：总理放宽准入 让民间资本投资有门</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容end -->
+    <!-- 底部信息 -->
+    <div class="footer">
+        Copyright&nbsp;&copy;&nbsp;2008-2016&nbsp;大通全球资本管理（北京）有限公司 All Right Reserved 京ICP备14052363号-1
+    </div>
+    <!-- 底部信息end -->
+
+
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/global.js"></script>
+    <script type="text/javascript">
+       $(function(){
+            var pageNum=global.getParam('type',window.location.href);
+            if(pageNum && pageNum>=0)
+            {
+                $('.menu-list li').eq(pageNum).addClass('current').siblings('li').removeClass('current');
+            }
+        });
+    </script>
+</body>
+</html>
