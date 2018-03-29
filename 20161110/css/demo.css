@@ -1,6 +1,7 @@
-@charset 'utf-8';
+﻿@charset 'utf-8';
 
 /*页面样式*/
+.container{min-width:1100px;}
 .container{min-width:1100px;}
 .container .icon{background:url(../images/index.sprite.png) no-repeat;}
 .container .white{background-color:#fff;}
